@@ -15,7 +15,7 @@ import MapKit
 class RestaurantListController: UITableViewController, MKMapViewDelegate, UISearchResultsUpdating {
     
     var coordinate: Coordinate?
-    let foursquareClient = FoursquareClient(clientID: "5O53IDZJAWB12DFHH1WFEYL2I1I3L0BTYQPHZUGJZYFL5IO4", clientSecret: "DXVEG1PDN0NMSOOZRRLJTWXTAON4RUL3GJSXAZVVEKHP40A3")
+    let foursquareClient = FoursquareClient(clientID: "", clientSecret: "")
     let manager = LocationManager()
     @IBOutlet weak var mapView: MKMapView!
     @IBOutlet weak var stackView: UIStackView!
